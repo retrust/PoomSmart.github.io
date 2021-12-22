@@ -163,7 +163,7 @@ tweaks = [
         "changes": [
             [ "1.0.0", "Increased Jetsam memory limit to 512 MB" ],
             [ "0.0.7.8", "Auto-kill mDNSResponderHelper when mDNSResponder keeps crashing" ],
-            [ "0.0.7.5", "Compiled with ARC to support devices with libhooker (Credits to @Diatrus)" ]
+            [ "0.0.7.5", "Compiled with ARC to support devices with libhooker (credits to @Diatrus)" ]
         ],
         "description": "<p><a href=\"https://github.com/PoomSmart/LetMeBlock/blob/master/README.md\">README</a></p>"
     },
@@ -640,8 +640,10 @@ tweaks = [
         "title": "YTAutoFullScreen",
         "min_ios": "11.0",
         "tintColor": "red",
-        "has_source_code": True,
         "description": "<p>Make your video full-screen on playing.</p>",
+        "changes": [
+            [ "1.0.3", "Fixed possible crash in some cases credits to @bakedpotato191" ]
+        ]
     },
     {
         "file": "replaykitmax",
