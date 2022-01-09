@@ -272,6 +272,7 @@ tweaks = [
         "tintColor": "red",
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            [ "1.2.6", "Updated spoofed version to be iOS 14.8.1 (for iOS 13-)" ],
             [ "1.2.5", "Fixed crashing on some older YouTube versions" ],
             [ "1.2.4", "Forces enabling Video quality settings on older YouTube to have YTUHD setting there" ],
             [ "1.2.3", "Added back support for iOS 11 and 12" ],
@@ -281,7 +282,6 @@ tweaks = [
                     "Fixed YTUHD setting doesn't display on YouTube 15.33.4 or lower"
                 ]
             ],
-            [ "1.2.0", "Make A10/A10X and lower devices use hardware acceleration for VP9" ],
             [ "1.1.2", "Simplified logic in settings creation" ],
             [ "1.1.1",
                 [
