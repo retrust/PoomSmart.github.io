@@ -597,7 +597,10 @@ tweaks = [
                 tweak_url("youremembercaption"),
                 tweak_url("ytnochecklocalnetwork"),
                 tweak_url("ytsystemappearance")
-            )
+            ),
+        "changes": [
+            [ "1.0.1", "Removed unused slices" ]
+        ]
     },
     {
         "file": "cahighfps",

@@ -2736,6 +2736,25 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
 Name: YTABGoodies
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
 
+Package: com.ps.ytabgoodies
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.youremembercaption, com.ps.ytnochecklocalnetwork, com.ps.ytsystemappearance, com.ps.youarethere
+Filename: ./debs/youtube/com.ps.ytabgoodies_1.0.1_iphoneos-arm.deb
+Size: 2562
+MD5sum: ff359d6268b83365a400d0fba4ea904a
+SHA1: dbd7373a8ec88deecfe1904b2300a6369393d5dc
+SHA256: 4c7bc5376f6c37645a49f61081a816f985715f25f72e0226e482cd359b4d991e
+Section: Tweaks
+Description: Enforce useful YouTube features that are otherwise 50/50 available to you
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
+Name: YTABGoodies
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
+
 Package: com.ps.ytautofullscreen
 Version: 1.0.2
 Architecture: iphoneos-arm
