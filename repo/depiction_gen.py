@@ -26,6 +26,7 @@ tweaks = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            [ "1.5.0~b1", "Initial support for iOS 15.4 beta emojis (Not working with iOS 13 arm64e yet)" ],
             [ "1.4.5", "Stripped unneeded hacks" ]
         ],
         "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
@@ -35,6 +36,7 @@ tweaks = [
         "title": "emojiport10resources",
         "min_ios": "10.0",
         "changes": [
+            [ "1.3.0~b1", "Initial support for iOS 15.4 beta emojis" ],
             [ "1.2.6", "Updated to iOS 15.0 assets" ]
         ],
         "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata, translation) for iOS 10 and above.</p>"
@@ -72,6 +74,7 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            [ "1.4.0~b1", "Initial support for iOS 15.4 beta emojis" ],
             [ "1.3.0", "Compiled with ARC" ]
         ],
         "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including\
@@ -125,6 +128,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.6.6", "Compiled with ARC" ],
             [ "1.6.5", "Fixed emoji category icons not being the latest (iOS 9.0)" ]
         ],
         "description": "<p>Latest emojis for iOS 9.0 - 9.3</p>\
@@ -137,6 +141,7 @@ tweaks = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
+            [ "1.3.5", "Compiled with ARC" ],
             [ "1.3.4", "Fixed crashing when using normal skinned emojis" ]
         ],
         "description": "<p>Latest emojis for iOS 10.0 - 11.4</p>\
@@ -144,16 +149,17 @@ tweaks = [
     },
     {
         "file": "emojiport_12",
-        "title": "EmojiPort (iOS 12.0 - 14.4)",
+        "title": "EmojiPort (iOS 12.0 - 14.8)",
         "min_ios": "12.0",
-        "max_ios": "14.4.2",
+        "max_ios": "14.8.1",
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            [ "1.2.0~b1", "Initial support for iOS 15.4 beta emojis" ],
             [ "1.1.2", "Improved hooks" ],
             [ "1.1.1", "Release version" ]
         ],
-        "description": "<p>Latest emojis for iOS 12.0 - 14.4</p>\
+        "description": "<p>Latest emojis for iOS 12.0 - 14.8</p>\
             <p><a href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
