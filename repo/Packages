@@ -634,14 +634,14 @@ Package: com.ps.emojiattributes
 Version: 1.5.0~b2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 664
+Installed-Size: 640
 Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
 Conflicts: com.ps.flexmoji
 Filename: ./debs/emojiport/com.ps.emojiattributes_1.5.0~b2_iphoneos-arm.deb
-Size: 57344
-MD5sum: c7cc2f93f496b1bd530469e027ac8ad5
-SHA1: a47376e0e39688f27cb8384248ddc1e74b958ddc
-SHA256: 30430ae77fd915605d85dcd481026298ac6a71b0bb6d2d1ac8e0edfa4cca3393
+Size: 55984
+MD5sum: 009717eeded06dd2b1de1230b8d291a2
+SHA1: d3d203ecae88133587037c3434857416b207468b
+SHA256: 1e6e796f1d94e75e433fc78f15d6d5101bb7bf793c0a0626cb656200a5e4cd26
 Section: Tweaks
 Description: Various under-the-hood fixes for emoji display.
 Author: PoomSmart
