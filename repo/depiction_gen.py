@@ -26,6 +26,7 @@ tweaks = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            [ "1.5.0~b2", "Added debug symbols and compiled with latest SDK" ],
             [ "1.5.0~b1", "Initial support for iOS 15.4 beta emojis (Not working with iOS 13 arm64e yet)" ],
             [ "1.4.5", "Stripped unneeded hacks" ]
         ],
