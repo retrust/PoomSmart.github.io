@@ -26,8 +26,7 @@ tweaks = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
-            [ "1.5.0~b2", "Added debug symbols and compiled with latest SDK" ],
-            [ "1.5.0~b1", "Initial support for iOS 15.4 beta emojis (Not working with iOS 13 arm64e yet)" ],
+            [ "1.5.0~b2", "Initial support for iOS 15.4 beta emojis (Not working with iOS 13 arm64e yet)" ],
             [ "1.4.5", "Stripped unneeded hacks" ]
         ],
         "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"

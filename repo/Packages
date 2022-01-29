@@ -612,25 +612,6 @@ Name: EmojiAttributes
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 
 Package: com.ps.emojiattributes
-Version: 1.5.0~b1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 596
-Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
-Conflicts: com.ps.flexmoji
-Filename: ./debs/emojiport/com.ps.emojiattributes_1.5.0~b1_iphoneos-arm.deb
-Size: 48366
-MD5sum: 4d898818233537b9e4557b6d95786d19
-SHA1: 165c9689c59525872c0a2e7f8509bbcadda1e2b1
-SHA256: ddd74d46913eb141c0e02bee9030ceb4eb72e175e98dd7278d9ea91f6877f42a
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
 Version: 1.5.0~b2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
