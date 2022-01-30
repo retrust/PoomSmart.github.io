@@ -29,8 +29,8 @@
             background-color: #fafafa;
         }
     
-        #tweakname {
-            text-align: left;
+        #tweakname, #fontpath {
+            text-align: start;
             white-space: nowrap;
             width: 1%;
         }
@@ -413,7 +413,8 @@
                 </ol>
                 <h4>Back up the original fonts</h4>
                 <ol>
-                    <li id="red">Back up the default fonts with the following names:
+                    <li id="red">Back up the default fonts with the following names (if any):
+                        <b>AppleColorEmoji-160px.ttc</b>,
                         <b>AppleColorEmoji(@2x).ttc</b>,
                         <b>AppleColorEmoji(@2x).ttf</b>,
                         <b>AppleColorEmoji(@2x).ccf</b> in
@@ -431,9 +432,9 @@
                 <ol>
                     <li>For iOS 5.1 - 8.1 users, place downloaded files at
                         <code>/System/Library/Fonts/Cache</code> on your device.</li>
-                    <li>For iOS 8.2+ AND iPhone SE 1st gen, iPhone 6s and iPhone 6s Plus users, place downloaded files at
+                    <li>For iOS 8.2+, iPhone SE 1st gen, iPhone 6s and iPhone 6s Plus users, place downloaded files at
                         <code>/System/Library/Fonts/Core</code> on your device.</li>
-                    <li>For iOS 14.0+ users, place downloaded files at
+                    <li>For everything else (iOS 14.0+ users), place downloaded files at
                         <code>/System/Library/Fonts/CoreAddition</code> on your device.</li>
                 </ol>
                 <h4 id="red">Important Notes</h4>
@@ -468,33 +469,85 @@
             <div class="col-12">
                 <h3>Issues with fonts</h3>
                 <p>Some people don't know what they did. The emoji font, if installed manually, must be in the correct location and with the correct file name and extension. Doing anything wrong will cause the emoji keyboard to be either full of blanks, full of "U" symbols or full of "?" symbols.</p>
+                <table id="fontlocations" class="table table-bordered text-center">
+                    <tr>
+                        <th rowspan="3" width="270px">Location Prefix <code>/System/Library/Fonts</code></th>
+                        <th colspan="10">iOS Versions and Device Types</th>
+                    </tr>
+                    <tr>
+                        <th colspan="2">5.1 - 8.1</th>
+                        <th colspan="2">8.2</th>
+                        <th colspan="2">8.3 - 9.3</th>
+                        <th colspan="2">10.0 - 13.7</th>
+                        <th colspan="2">14.0+</th>
+                    </tr>
+                    <tr>
+                        <td>Non-HD</td>
+                        <td>HD</td>
+                        <td>Non-HD</td>
+                        <td>HD</td>
+                        <td>Non-HD</td>
+                        <td>HD</td>
+                        <td>Non-HD</td>
+                        <td>HD</td>
+                        <td>iPhone SE (2016) & iPhone 6s(+)</td>
+                        <td>Others</td>
+                    </tr>
+                    <tr>
+                        <th id="fontpath"><code>/Cache/AppleColorEmoji</code></th>
+                        <td>.ttf</td>
+                        <td>@2x.ttf</td>
+                        <td colspan="8">-</td>
+                    </tr>
+                    <tr>
+                        <th id="fontpath"><code>/Core/AppleColorEmoji</code></th>
+                        <td colspan="2">-</td>
+                        <td>_1x.ttf</td>
+                        <td>_2x.ttf</td>
+                        <td>.ttf and .ccf</td>
+                        <td>@2x.ttf and @2x.ccf</td>
+                        <td>.ttc and .ccf</td>
+                        <td>@2x.ttc and @2x.ccf</td>
+                        <td>.ttc</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th id="fontpath"><code>/CoreAddition/AppleColorEmoji</code></th>
+                        <td colspan="9">-</td>
+                        <td>-160px.ttc</td>
+                    </tr>
+                </table>
                 <p>To ensure that everything works correctly, you have to see what happened inside the directory
                     <code>/System/Library/Fonts/CoreAddition</code> (iOS 14.0+), 
                     <code>/System/Library/Fonts/Core</code> (iOS 8.2+) or
                     <code>/System/Library/Fonts/Cache</code> otherwise. The original font should still be there, but maybe with a wrong file extension.</p>
                 <ul>
                     <li>For
-                        <b>iOS 5.1 - 8.1</b>, the exactly correct name of the emoji font is
+                        <b>iOS 5.1 - 8.1</b>, you must see
                         <b>AppleColorEmoji@2x.ttf</b> (retina devices) or
-                        <b>AppleColorEmoji.ttf</b> otherwise</li>
+                        <b>AppleColorEmoji.ttf</b> (non-retina devices)</li>
                     <li>For
-                        <b>iOS 8.2</b>, the exactly correct name of the emoji font is
+                        <b>iOS 8.2</b>, you must see
                         <b>AppleColorEmoji_2x.ttf</b> (retina devices) or
-                        <b>AppleColorEmoji_1x.ttf</b> otherwise</li>
+                        <b>AppleColorEmoji_1x.ttf</b> (non-retina devices)</li>
                     <li>For
-                        <b>iOS 8.3 - 9.3</b>, similar to 5.1 - 8.1 ones but you will
-                        <b>also have AppleColorEmoji@2x.ccf</b> (or
-                        <b>AppleColorEmoji.ccf</b>), which is larger than the ttf</li>
+                        <b>iOS 8.3 - 9.3</b>, you must see
+                        <b>AppleColorEmoji@2x.ttf</b> (retina devices) or
+                        <b>AppleColorEmoji.ttf</b> (non-retina devices), and
+                        <b>AppleColorEmoji@2x.ccf</b> (retina devices) or
+                        <b>AppleColorEmoji.ccf</b> (non-retina devices)</li>
                     <li>For
-                        <b>iOS 10.0 - 13.7</b>, similar to 8.3 - 9.3 but
-                        <b>AppleColorEmoji@2x.ttc</b> instead of
-                        <b>AppleColorEmoji@2x.ttf</b>
+                        <b>iOS 10.0 - 13.7</b>, you must see
+                        <b>AppleColorEmoji@2x.ttc</b> (retina devices) or
+                        <b>AppleColorEmoji.ttc</b> (non-retina devices), and
+                        <b>AppleColorEmoji@2x.ccf</b> (retina devices) or
+                        <b>AppleColorEmoji.ccf</b> (non-retina devices)</li>
                     </li>
                     <li>For
-                        <b>iOS 14.0+ on iPhone SE 1st gen, iPhone 6s and iPhone 6s Plus</b>, it is <b>AppleColorEmoji.ttc</b>
+                        <b>iOS 14.0+ on iPhone SE 1st gen, iPhone 6s and iPhone 6s Plus</b>, you must see <b>AppleColorEmoji.ttc</b>
                     </li>
                     <li>For
-                        <b>iOS 14.0+ on other devices</b>, it is <b>AppleColorEmoji-160px.ttc</b>
+                        <b>iOS 14.0+ on other devices</b>, you must see <b>AppleColorEmoji-160px.ttc</b>
                     </li>
                 </ul>
                 <p>If you see something different, you likely have issues with the font. To restore the default fonts, there are multiple ways:
@@ -559,7 +612,7 @@
                 </ul>
                 <h3>EmojiFontManager</h3>
                 <ul>
-                    <li>For some jailbreaks, it doesn't fully work inside Safari browser and you must use Option #4 for installing emoji font as a workaround</li>
+                    <li>-</li>
                 </ul>
             </div>
         </div>
