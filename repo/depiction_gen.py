@@ -61,6 +61,12 @@ tweaks = [
             It is highly recommended to respring after you change the font.</p>"
     },
     {
+        "file": "emojifontefm",
+        "title": "Emoji iOS 15.4 (EFM, iOS 14+)",
+        "min_ios": "14.0",
+        "description": "<p>iOS 15.4 emoji font for EmojiFontManager.</p>"
+    },
+    {
         "file": "emojilayout",
         "title": "EmojiLayout",
         "min_ios": "5.1",
