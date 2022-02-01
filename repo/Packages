@@ -576,6 +576,22 @@ Description: Flipswitch for volume change with buttons
 Author: PoomSmart
 Name: Change Vol With Buttons Flipswitch
 
+Package: com.ps.efmfontsetter
+Version: 15.4.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: defaults | ws.hbang.common, com.ps.emojifontmanager
+Filename: ./debs/emojifont/com.ps.efmfontsetter_15.4.0_iphoneos-arm.deb
+Size: 690
+MD5sum: bc4421753077d010e21666f807014a5c
+SHA1: 202f1bb345b9790cd54b6ce45c892ee76d463e52
+SHA256: 86b1850b107ae03f760598fcb26c9a3ee1ae3c69a9f865bc296abeeee47d53b2
+Section: Utilities
+Description: Apply EFM emoji font with a shell script.
+Author: PoomSmart
+Name: EFM Font Setter
+
 Package: com.ps.emodeji
 Version: 1.0
 Architecture: iphoneos-arm

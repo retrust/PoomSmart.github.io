@@ -324,7 +324,7 @@ tweaks = [
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>",
         "changes": [
             [ "1.6.5 (15.10.4+)", "Fixed crashing on YouTube version 17.03.2 when playing a video with Legacy PiP on" ],
-            [ "1.6.4 (15.10.4 - 17.01.4)", "Refactored" ],
+            [ "1.6.4", "Refactored" ],
             [ "1.6.3", "Fixed possible crashing when displaying compatibility alert (credits to @bakedpotato191)" ],
             [ "1.6.2", "Fixed app crashing on iOS 13- when skipping ads (credits testing to @NguyenASang)" ],
             [ "1.6.1", "Fixed PiP not working on iOS 12- for clean YouTube install" ],
@@ -348,7 +348,7 @@ tweaks = [
             [ "1.5.9", "Fixed PiP controller not working on iOS 13- in recent YouTube versions" ],
             [ "1.5.8", "Minor code optimizations" ],
             [ "1.5.7", "Fixed YouPiP settings not showing on older versions of YouTube" ],
-            [ "1.5.6 (15.10.4+)", "Fixed crashing on YouTube version 16.29.4" ],
+            [ "1.5.6 (15.10.4 - 17.01.4)", "Fixed crashing on YouTube version 16.29.4" ],
             [ "1.5.5", "Fixed YouPiP settings being unsynchronized when other native settings are toggled" ],
             [ "1.5.4 (15.10.4 - 16.28.2)",
                 [
