@@ -682,6 +682,24 @@ Description: iOS 10.2+ dark emoji icons.
 Author: PoomSmart
 Name: EmojiDarkStyle
 
+Package: com.ps.emojifontefm
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 93180
+Depends: com.ps.emojifontmanager, firmware (<< 14.0)
+Filename: ./debs/emojifont/com.ps.emojifontefm_1.0.0_iphoneos-arm.deb
+Size: 93050904
+MD5sum: ea17f90eab9c73af1cb32098b70da3c2
+SHA1: 415d59c0d63fb6fb66c7ada12141b0d73a2aeb70
+SHA256: beeebf30d7b423c0e360fe963045dfeea0cfd78a2d43a29da5c18c0481801738
+Section: Fonts (EFM)
+Description: iOS 15.4 Emoji font (EmojiFontManager)
+Author: PoomSmart
+Depiction: http://poomsmart.github.io/repo/depictions/emojifontefm.html
+Name: Emoji iOS 15.4 (EFM, iOS <14)
+Sileodepiction: http://poomsmart.github.io/repo/sileodepictions/emojifontefm.html
+
 Package: com.ps.emojifontefm14
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -787,6 +805,25 @@ Size: 35478
 MD5sum: d34e142ae71d8045111176b82609ff20
 SHA1: 9c7adbffae37136aaa48b1324354612e7d32c05e
 SHA256: 4bd6d3481e5dd7c4412c90c58345f499915d21fdae56a030406894dd915f5062
+Section: Tweaks
+Description: Emoji font override and management.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
+Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
+Name: EmojiFontManager
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
+
+Package: com.ps.emojifontmanager
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 336
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.ps.emojilibrary, firmware (>= 6.0), ws.hbang.common (>= 1.16)
+Filename: ./debs/emojifontmanager/com.ps.emojifontmanager_1.1.5_iphoneos-arm.deb
+Size: 35510
+MD5sum: e0e0fb277ae9ca8dd6f46b92e100f947
+SHA1: f7b76470051876b9fbd27f81bd56402f11069768
+SHA256: fa62012934e1f812080ffb68e9b5a2ffcb1ade1d727afcb135fd2c2424dbbe21
 Section: Tweaks
 Description: Emoji font override and management.
 Author: PoomSmart
