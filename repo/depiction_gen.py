@@ -26,6 +26,7 @@ tweaks = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            [ "1.5.0~b4", "Added missing emoji character set on iOS < 11" ],
             [ "1.5.0~b3", "Fixed certain emojis not fully disappeared on deletion" ],
             [ "1.5.0~b2", "Initial support for iOS 15.4 beta emojis (Not working with iOS 13 arm64e yet)" ],
             [ "1.4.5", "Stripped unneeded hacks" ]
@@ -149,6 +150,7 @@ tweaks = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
+            [ "1.3.6", "Lazy load tweak" ],
             [ "1.3.5", "Compiled with ARC" ],
             [ "1.3.4", "Fixed crashing when using normal skinned emojis" ]
         ],
@@ -163,6 +165,7 @@ tweaks = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            [ "1.2.0~b2", "Lazy load tweak" ],
             [ "1.2.0~b1", "Initial support for iOS 15.4 beta emojis" ],
             [ "1.1.2", "Improved hooks" ],
             [ "1.1.1", "Release version" ]
