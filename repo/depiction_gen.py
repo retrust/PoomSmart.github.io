@@ -165,6 +165,7 @@ tweaks = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            [ "1.2.0~b3", "Added fixup for older iOS where handshake emoji doesn't get skinned" ],
             [ "1.2.0~b2", "Lazy load tweak" ],
             [ "1.2.0~b1", "Initial support for iOS 15.4 beta emojis" ],
             [ "1.1.2", "Improved hooks" ],
