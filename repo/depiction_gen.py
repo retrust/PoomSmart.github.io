@@ -150,6 +150,7 @@ tweaks = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
+            [ "1.3.7", "Added fixup for older iOS where handshake emoji doesn't get skinned" ],
             [ "1.3.6", "Lazy load tweak" ],
             [ "1.3.5", "Compiled with ARC" ],
             [ "1.3.4", "Fixed crashing when using normal skinned emojis" ]
