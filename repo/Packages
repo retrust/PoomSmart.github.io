@@ -666,17 +666,17 @@ Name: EmojiAttributes
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 
 Package: com.ps.emojiattributes
-Version: 1.5.0~b4
+Version: 1.5.0~b5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 596
+Installed-Size: 660
 Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
 Conflicts: com.ps.flexmoji
-Filename: ./debs/emojiport/com.ps.emojiattributes_1.5.0~b4_iphoneos-arm.deb
-Size: 51898
-MD5sum: ae3e1aeaee79c0a8d0800eee3db8f345
-SHA1: 09a80dfec00c62dfb0ba355b652aca0b6fb04763
-SHA256: 8221348f3fb990a704d6ea62ebfe42cbbe24070bdac05f78fc5d8205c5ac41ea
+Filename: ./debs/emojiport/com.ps.emojiattributes_1.5.0~b5_iphoneos-arm.deb
+Size: 60922
+MD5sum: 8a8d387cad2ffc21e508efd1cab076bb
+SHA1: d3323a822fa279115998be32174ecda416ae2041
+SHA256: 29289c4ced866b1ac79817b0475826d39aaea22027631469024feb22f82e71e7
 Section: Tweaks
 Description: Various under-the-hood fixes for emoji display.
 Author: PoomSmart

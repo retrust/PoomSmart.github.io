@@ -26,7 +26,7 @@ tweaks = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
-            [ "1.5.0~b4", "Added missing emoji character set on iOS < 11" ],
+            [ "1.5.0~b5", "Added missing emoji character set on iOS < 11" ],
             [ "1.5.0~b3", "Fixed certain emojis not fully disappeared on deletion" ],
             [ "1.5.0~b2", "Initial support for iOS 15.4 beta emojis (Not working with iOS 13 arm64e yet)" ],
             [ "1.4.5", "Stripped unneeded hacks" ]
