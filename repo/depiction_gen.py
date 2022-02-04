@@ -125,6 +125,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.6.6", "Lazy load tweak" ],
             [ "1.6.5", "Fixed emoji category icons not being the latest" ]
         ],
         "description": "<p>Latest emojis for iOS 8.3 - 8.4</p>\
@@ -138,6 +139,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.6.7", "Lazy load tweak" ],
             [ "1.6.6", "Compiled with ARC" ],
             [ "1.6.5", "Fixed emoji category icons not being the latest (iOS 9.0)" ]
         ],
