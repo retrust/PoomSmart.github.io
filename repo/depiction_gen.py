@@ -112,6 +112,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.8.0", "Refactored compilation" ],
             [ "1.7.5", "Fixed crashing when selecting skinned emojis" ]
         ],
         "description": "<p>Latest emojis for iOS 6.0 - 8.2</p>\
