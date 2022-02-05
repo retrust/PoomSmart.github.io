@@ -888,6 +888,25 @@ Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
 Name: EmojiFontManager
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
 
+Package: com.ps.emojifontmanager
+Version: 1.1.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 336
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.ps.emojilibrary, firmware (>= 6.0), ws.hbang.common (>= 1.16)
+Filename: ./debs/emojifontmanager/com.ps.emojifontmanager_1.1.6_iphoneos-arm.deb
+Size: 35468
+MD5sum: 3af9e41975bda76d6499d89cece8d301
+SHA1: a869f67886d65bc6c0920574bcf7d718f5591a3b
+SHA256: 3b0ea70e1c1a78dbac992a25e963395d4a1b9fba2a3868d4673a178966d14ed0
+Section: Tweaks
+Description: Emoji font override and management.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
+Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
+Name: EmojiFontManager
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
+
 Package: com.ps.emojilayout
 Version: 1.1.21
 Architecture: iphoneos-arm
@@ -1174,6 +1193,25 @@ Size: 23794
 MD5sum: 882fd346b1bb5730f93c4f9860f1c131
 SHA1: a633eef0742f2343d426af448228c510c902339a
 SHA256: 3acbf8adc96881102f03f7655ac43ba0b6237d16ff9a044065fe48819ab1a83d
+Section: Tweaks
+Description: Latest emojis for iOS 12.0-14.8
+Tag: compatible::ios12, compatible::ios13, compatible::ios14
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
+Name: EmojiPort (iOS 12.0-14.8)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
+
+Package: com.ps.emojiportpe
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 304
+Depends: firmware (>= 12.0), firmware (<< 15.0), com.ps.emojiattributes (>= 1.5.0~b1), com.ps.emojilibrary (>= 1.4.0~b1), com.ps.emojiport10resources (>= 1.3.0~b1)
+Filename: ./debs/emojiport/com.ps.emojiportpe_1.2.1_iphoneos-arm.deb
+Size: 16382
+MD5sum: 1783472051eecc0178604cbe258a742c
+SHA1: 44d551eae293be82b5b016f597abeef1091b9ac2
+SHA256: 3fe4ab3990eb8243d4f090ce91d2eef9db71c1693f8bbe8abe73ff33488fea55
 Section: Tweaks
 Description: Latest emojis for iOS 12.0-14.8
 Tag: compatible::ios12, compatible::ios13, compatible::ios14
