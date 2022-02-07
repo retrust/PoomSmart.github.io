@@ -334,6 +334,7 @@ tweaks = [
             <p>If you encounter playback speedup issue for your PiP, try to upgrade to YouPiP 1.4.3+ (and enable Sample Buffer Hack in YouPiP settings) or use iOS 15.0b2+.</p>\
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>",
         "changes": [
+            [ "1.6.6", "Fixed PiP still activating on app dismiss in some situations when PiP button is enabled" ],
             [ "1.6.5 (15.10.4+)", "Fixed crashing on YouTube version 17.03.2 when playing a video with Legacy PiP on" ],
             [ "1.6.4", "Refactored" ],
             [ "1.6.3", "Fixed possible crashing when displaying compatibility alert (credits to @bakedpotato191)" ],
@@ -341,8 +342,8 @@ tweaks = [
             [ "1.6.1", "Fixed PiP not working on iOS 12- for clean YouTube install" ],
             [ "1.6.0", "Added an option to display PiP button in video tab bar (credits to @BandarHL)" ],
             [ "1.5.15", "Fixed support for iOS 12-" ],
-            [ "1.5.14", "Make Legacy PiP enabled by default for iOS 11/12 (regression fix for 1.5.13)" ],
-            [ "1.5.12", "Make PiP toggle displays for non-premium users on YouTube 16.40.3" ],
+            [ "1.5.14", "Made Legacy PiP enabled by default for iOS 11/12 (regression fix for 1.5.13)" ],
+            [ "1.5.12", "Made PiP toggle displays for non-premium users on YouTube 16.40.3" ],
             [ "1.5.11",
                 [
                     "Known issue: PiP may not work on iOS 12",
@@ -353,7 +354,7 @@ tweaks = [
             [ "1.5.10",
                 [
                     "Compiled with iOS 15.0 SDK",
-                    "Inject PiP controller into YTAutonavEndscreenController for better iOS 13- compatibility"
+                    "Added PiP controller injection into YTAutonavEndscreenController for better iOS 13- compatibility"
                 ]
             ],
             [ "1.5.9", "Fixed PiP controller not working on iOS 13- in recent YouTube versions" ],
@@ -405,7 +406,7 @@ tweaks = [
             [ "1.4.2", "Fixed PiP not working on iOS/iPadOS 14.0 - 14.4 for YouTube 16.25.2" ],
             [ "1.4.1", "Added few more missing logic from iOS 15.0b2 approach" ],
             [ "1.4.0", "Attempted to fix PiP playback speedup bug using iOS 15.0b2 approach" ],
-            [ "1.3.4", "Enable native PiP toggle inside YouTube settings" ],
+            [ "1.3.4", "Added native PiP toggle inside YouTube settings" ],
             [ "1.3.3", "Refactored logic related to bootstraping PiP functionality" ],
             [ "1.3.2", "Fixed crashing due to adding PiP button to the overlay for some users" ],
             [ "1.3.1",
