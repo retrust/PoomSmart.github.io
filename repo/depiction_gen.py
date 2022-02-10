@@ -39,6 +39,7 @@ tweaks = [
         "title": "emojiport10resources",
         "min_ios": "10.0",
         "changes": [
+            [ "1.3.0~b2", "Updated assets to be from iOS 15.4b2" ],
             [ "1.3.0~b1", "Initial support for iOS 15.4 beta emojis" ],
             [ "1.2.6", "Updated to iOS 15.0 assets" ]
         ],
@@ -85,6 +86,7 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            [ "1.4.0~b2", "Added basic support for multi-skinned handshake emoji" ],
             [ "1.4.0~b1", "Initial support for iOS 15.4 beta emojis" ],
             [ "1.3.0", "Compiled with ARC" ]
         ],
@@ -171,6 +173,7 @@ tweaks = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            [ "1.2.2", "Support EmojiLibrary 1.4.0~b2" ],
             [ "1.2.1", "Support Apple Photos Markup extension" ],
             [ "1.2.0~b3", "Added fixup for older iOS where handshake emoji doesn't get skinned" ],
             [ "1.2.0~b2", "Lazy load tweak" ],
