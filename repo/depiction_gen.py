@@ -50,7 +50,7 @@ tweaks = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
-            [ "1.1.6", "Support Apple Photos Markup extension" ],
+            [ "1.1.7", "Support Apple Photos Markup extension" ],
             [ "1.1.5", "Displays the default emoji font path" ],
             [ "1.1.3", "Fixed sandbox issue on iOS 7" ],
             [ "1.1.2", "Fixed buttons not working" ],
@@ -173,8 +173,8 @@ tweaks = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            [ "1.2.3", "Support Apple Photos Markup extension correctly" ],
             [ "1.2.2", "Support EmojiLibrary 1.4.0~b2" ],
-            [ "1.2.1", "Support Apple Photos Markup extension" ],
             [ "1.2.0~b3", "Added fixup for older iOS where handshake emoji doesn't get skinned" ],
             [ "1.2.0~b2", "Lazy load tweak" ],
             [ "1.2.0~b1", "Initial support for iOS 15.4 beta emojis" ],
