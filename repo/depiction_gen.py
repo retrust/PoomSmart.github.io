@@ -86,6 +86,7 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            [ "1.4.0~b3", "Fixed crashing on selecting multi-skinned emojis" ],
             [ "1.4.0~b2", "Added basic support for multi-skinned handshake emoji" ],
             [ "1.4.0~b1", "Initial support for iOS 15.4 beta emojis" ],
             [ "1.3.0", "Compiled with ARC" ]
@@ -173,6 +174,7 @@ tweaks = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            [ "1.2.4", "Support EmojiLibrary 1.4.0~b3" ],
             [ "1.2.3", "Support Apple Photos Markup extension correctly" ],
             [ "1.2.2", "Support EmojiLibrary 1.4.0~b2" ],
             [ "1.2.0~b3", "Added fixup for older iOS where handshake emoji doesn't get skinned" ],
