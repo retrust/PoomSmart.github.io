@@ -774,6 +774,24 @@ Depiction: http://poomsmart.github.io/repo/depictions/emojifontefm.html
 Name: Emoji iOS 15.4 (EFM, iOS <14)
 Sileodepiction: http://poomsmart.github.io/repo/sileodepictions/emojifontefm.html
 
+Package: com.ps.emojifontefm
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 87724
+Depends: com.ps.emojifontmanager, firmware (<< 14.0)
+Filename: ./debs/emojifont/com.ps.emojifontefm_1.0.3_iphoneos-arm.deb
+Size: 87427480
+MD5sum: 1a15a40b80361a80ff4fba15f80154e0
+SHA1: 62f7e5d2064a12494ea03e59d4764146907a587e
+SHA256: 7941abce369a39adcca45c192d5aca36ea48aaf997ce20b42e84ae6e1bd769b5
+Section: Fonts (EFM)
+Description: iOS 15.4 Emoji font (EmojiFontManager)
+Author: PoomSmart
+Depiction: http://poomsmart.github.io/repo/depictions/emojifontefm.html
+Name: Emoji iOS 15.4 (EFM, iOS <14)
+Sileodepiction: http://poomsmart.github.io/repo/sileodepictions/emojifontefm.html
+
 Package: com.ps.emojifontefm14
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -803,6 +821,24 @@ Size: 51832504
 MD5sum: 00fd954fc1aaaadd75f7696046053b2c
 SHA1: 82ac05a1d7ff688fcf22b560b7149f7002c22616
 SHA256: edaf705f29841f7afeed9688743ff5cbe06ad491950fe590133453df16dc8dba
+Section: Fonts (EFM)
+Description: iOS 15.4 Emoji font (EmojiFontManager)
+Author: PoomSmart
+Depiction: http://poomsmart.github.io/repo/depictions/emojifontefm.html
+Name: Emoji iOS 15.4 (EFM)
+Sileodepiction: http://poomsmart.github.io/repo/sileodepictions/emojifontefm.html
+
+Package: com.ps.emojifontefm14
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 60216
+Depends: com.ps.emojifontmanager, firmware (>= 14.0)
+Filename: ./debs/emojifont/com.ps.emojifontefm14_1.0.2_iphoneos-arm.deb
+Size: 60871012
+MD5sum: 10bb03d17cf5e697067f7edc3ce319fe
+SHA1: 376366d41eb6188a9c502554223e71911c9b44ce
+SHA256: ffa832af07e64aab0d42f154c1c639761b2691c8e2562655d483f7b07cf35892
 Section: Fonts (EFM)
 Description: iOS 15.4 Emoji font (EmojiFontManager)
 Author: PoomSmart
