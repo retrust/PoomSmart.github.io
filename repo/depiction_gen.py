@@ -39,6 +39,7 @@ tweaks = [
         "title": "emojiport10resources",
         "min_ios": "10.0",
         "changes": [
+            [ "1.3.0~b3", "Updated assets to be from iOS 15.4b3" ],
             [ "1.3.0~b2", "Updated assets to be from iOS 15.4b2" ],
             [ "1.3.0~b1", "Initial support for iOS 15.4 beta emojis" ],
             [ "1.2.6", "Updated to iOS 15.0 assets" ]
