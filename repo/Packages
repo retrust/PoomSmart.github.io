@@ -3538,6 +3538,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytreexplore.html
 Name: YTReExplore
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytreexplore.json
 
+Package: com.ps.ytsilentvote
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytsilentvote_1.0.0_iphoneos-arm.deb
+Size: 2686
+MD5sum: 99ca5c25b8a671bb48c9c4d491c5dc1d
+SHA1: 105e03a67447acfa4b3b2d2bc8755e932d269b52
+SHA256: c0eb9b9390f0dcac3b7c41ac5a99c862f630c6f1b76e4c5c4308d85677641e37
+Section: Tweaks
+Description: No messages will pop up as you like/dislike videos.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytsilentvote.html
+Name: YTSilentVote
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytsilentvote.json
+
 Package: com.ps.ytsystemappearance
 Version: 1.0.0
 Architecture: iphoneos-arm

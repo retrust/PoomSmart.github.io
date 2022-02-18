@@ -683,6 +683,13 @@ tweaks = [
         ]
     },
     {
+        "file": "ytsilentvote",
+        "title": "YTSilentVote",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Remove popup when you like/dislike videos; those saying you liked the video and feedback shared with the creator.</p>"
+    },
+    {
         "file": "replaykitmax",
         "title": "ReplayKit Max",
         "min_ios": "9.0",
