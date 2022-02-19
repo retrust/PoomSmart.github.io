@@ -26,6 +26,7 @@ tweaks = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            [ "1.5.0~b7", "Fixed uemoji.icu (emoji unicode data) not being parsed" ],
             [ "1.5.0~b6", "Fixed regression introduced in b5" ],
             [ "1.5.0~b5", "Added missing emoji character set on iOS < 11" ],
             [ "1.5.0~b3", "Fixed certain emojis not fully disappeared on deletion" ],
