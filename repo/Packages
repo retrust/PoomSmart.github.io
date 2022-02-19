@@ -711,10 +711,10 @@ Installed-Size: 660
 Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
 Conflicts: com.ps.flexmoji
 Filename: ./debs/emojiport/com.ps.emojiattributes_1.5.0~b7_iphoneos-arm.deb
-Size: 61954
-MD5sum: f3b4deb5dab30a97a6c6692fa6fd755c
-SHA1: 860a10f501fbfb429dd9eefded3ba4113dd24653
-SHA256: 142f4bfec5f0d79540f3148047d787d233837b9ffb651a7cc774f6d082c5b557
+Size: 62104
+MD5sum: 94785d00598905c4ae02b4f6eaa8a3b0
+SHA1: a469c0e593c2a6dbfca61523e5435fbc74367811
+SHA256: 468039591ac7ca7d748cb46b6b599cb59fc436d1e5c9f000b46da555e803e9ab
 Section: Tweaks
 Description: Various under-the-hood fixes for emoji display.
 Author: PoomSmart
