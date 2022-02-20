@@ -26,6 +26,7 @@ tweaks = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            [ "1.5.0~b11", "Fixed support for iOS 13 arm64e devices" ],
             [ "1.5.0~b10", "Added ICU compatibility layer for version < 63 (iOS 9 and below)" ],
             [ "1.5.0~b8", "Fixed uemoji.icu (emoji unicode data) not being parsed" ],
             [ "1.5.0~b6", "Fixed regression introduced in b5" ],
