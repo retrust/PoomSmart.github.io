@@ -92,6 +92,7 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            [ "1.4.0", "Fixed interracial handshakes not selected correctly in emoji picker (iOS 13.2+)" ],
             [ "1.4.0~b4", "Fixed emoji picker for handholding emojis not rendering correctly (iOS 13.2+)" ],
             [ "1.4.0~b3", "Fixed crashing on selecting multi-skinned emojis" ],
             [ "1.4.0~b2", "Added basic support for multi-skinned handshake emoji" ],
