@@ -84,6 +84,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/amber.html
 Name: Amber
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
 
+Package: com.ps.amber
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 304
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 11.0)
+Filename: ./debs/camera/com.ps.amber_1.1.0_iphoneos-arm.deb
+Size: 9374
+MD5sum: 554fe4fadd5336f782045132a302e3be
+SHA1: 218b0abe407dc46fb4c76a442fdda611eaa9ca2b
+SHA256: 0b0ca458c735e38b6029f770b28e04cef3c1db4ea45dc8d87d08de6689fad16f
+Section: Tweaks
+Description: Amber-ify your LED torch.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+Name: Amber
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+
 Package: com.ps.anysuggestemojiim
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -2310,6 +2328,24 @@ Size: 20210
 MD5sum: 0536a14d86e059cbacec3a0fe5ec9379
 SHA1: ac3555c6c8572f087f812940dc044e0c231b2cc6
 SHA256: da342c9dca7f444447562a61360617f893fa26768715bb686e2edb7eaeb4da15
+Section: Tweaks
+Description: Utilize "high current" for Quad-LEDs devices.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
+Name: QuadHighCurrent
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
+
+Package: com.ps.quadhighcurrent
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 10.0), gsc.camera-flash
+Filename: ./debs/camera/com.ps.quadhighcurrent_1.1.0_iphoneos-arm.deb
+Size: 4642
+MD5sum: 5409e64ac1ca42362188fcddf3f2c188
+SHA1: fa5b814792eed8cbd531677dc58ad441ebcd9f7c
+SHA256: eda717784948b1c6cc90d16529419d069b5aeff7b188bc67f3f6b1a4708b8b33
 Section: Tweaks
 Description: Utilize "high current" for Quad-LEDs devices.
 Author: PoomSmart

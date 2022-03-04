@@ -218,6 +218,7 @@ tweaks = [
         "tintColor": "orange",
         "featured_as_banner": True,
         "changes": [
+            [ "1.1.0", "Rootless mode (Swipe-only), iOS 11+" ],
             [ "1.0.2", "Fixed crashing on iOS 12 when opening flashlight CC module" ],
             [ "1.0.1", "Compiled Amber CC Module with ARC" ],
             [ "1.0.0", "Amber Flipswitch now includes arm64e slice" ]
@@ -229,6 +230,7 @@ tweaks = [
         "title": "QuadHighCurrent",
         "min_ios": "10.0",
         "changes": [
+            [ "1.1.0", "Rootless mode (Enabled-only)" ],
             [ "1.0.0",
                 [
                     "Fixed blackout settings icon when dark mode is active",
@@ -236,7 +238,7 @@ tweaks = [
                 ]
             ]
         ],
-        "description": "<p>A CC module/Flipswitch tweak (similar to Amber) to always have the maximum LEDs brightness (i.e., using high current) for quad-LEDs devices. An example is when you turn on the light in video recording mode of the stock camera app. For iPhone 7 and newer, iPad Pro 12.9\" (2nd Gen) and newer.</p>"
+        "description": "<p>A CC module/Flipswitch tweak to always have the maximum LEDs brightness (i.e., using high current) for quad-LEDs devices. An example is when you turn on the light in video recording mode of the stock camera app. For iPhone 7 and newer, iPad Pro 12.9\" (2nd Gen) and newer.</p>"
     },
     {
         "file": "libsubstitrate",
