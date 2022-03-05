@@ -43,7 +43,7 @@ tweaks = [
         "title": "emojiport10resources",
         "min_ios": "10.0",
         "changes": [
-            [ "1.3.0~b3", "Updated assets to be from iOS 15.4b4" ],
+            [ "1.3.0~b4", "Updated assets to be from iOS 15.4b4" ],
             [ "1.3.0~b3", "Updated assets to be from iOS 15.4b3" ],
             [ "1.3.0~b2", "Updated assets to be from iOS 15.4b2" ],
             [ "1.3.0~b1", "Initial support for iOS 15.4 beta emojis" ],
@@ -131,32 +131,17 @@ tweaks = [
                 <p><a href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
-        "file": "emojiport_8_3",
-        "title": "EmojiPort (iOS 8.3 - 8.4)",
+        "file": "emojiport_8_9",
+        "title": "EmojiPort (iOS 8.3 - 9.3)",
         "min_ios": "8.3",
-        "max_ios": "8.4.1",
-        "strict_range": True,
-        "no_sileo": True,
-        "changes": [
-            [ "1.6.6", "Lazy load tweak" ],
-            [ "1.6.5", "Fixed emoji category icons not being the latest" ]
-        ],
-        "description": "<p>Latest emojis for iOS 8.3 - 8.4</p>\
-                <p><a href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
-    },
-    {
-        "file": "emojiport_9",
-        "title": "EmojiPort (iOS 9.0 - 9.3)",
-        "min_ios": "9.0",
         "max_ios": "9.3.6",
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.6.7", "Lazy load tweak" ],
-            [ "1.6.6", "Compiled with ARC" ],
-            [ "1.6.5", "Fixed emoji category icons not being the latest (iOS 9.0)" ]
+            [ "1.7.0", "Combined with EmojiPort (iOS 8.3 - 8.4)" ],
+            [ "1.6.7", "Lazy load tweak" ]
         ],
-        "description": "<p>Latest emojis for iOS 9.0 - 9.3</p>\
+        "description": "<p>Latest emojis for iOS 8.3 - 9.3</p>\
             <p><a href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
@@ -182,12 +167,10 @@ tweaks = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            [ "1.2.5", "Added missing hook for search engine override lists" ],
             [ "1.2.4", "Support EmojiLibrary 1.4.0~b3" ],
             [ "1.2.3", "Support Apple Photos Markup extension correctly" ],
             [ "1.2.2", "Support EmojiLibrary 1.4.0~b2" ],
-            [ "1.2.0~b3", "Added fixup for older iOS where handshake emoji doesn't get skinned" ],
-            [ "1.2.0~b2", "Lazy load tweak" ],
-            [ "1.2.0~b1", "Initial support for iOS 15.4 beta emojis" ],
             [ "1.1.2", "Improved hooks" ],
             [ "1.1.1", "Release version" ]
         ],
