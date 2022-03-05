@@ -206,7 +206,8 @@ tweaks = [
             [ "1.0.1", "Compiled Amber CC Module with ARC" ],
             [ "1.0.0", "Amber Flipswitch now includes arm64e slice" ]
         ],
-        "description": "<p>A CC module/Flipswitch tweak to allow setting of Amber LED, or both White and Amber LEDs.</p>"
+        "description": "<p><b>As of version 1.1.0, the CC module has been removed and it targets iOS 11+.</b> You can change amber mode through swipe. Check this <a href=\"https://twitter.com/PoomSmart/status/1499984245640495107\">video</a> for how it works.</p><br/>\
+            <p>A CC module/Flipswitch tweak to allow setting of Amber LED, or both White and Amber LEDs.</p>"
     },
     {
         "file": "quadhighcurrent",
