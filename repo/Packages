@@ -1304,25 +1304,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojiportalpha/index.html
 Name: EmojiPort (iOS 5.1)
 
-Package: com.ps.emojiportfix
-Version: 1.6.6
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 268
-Depends: firmware (>= 8.3), firmware (<< 9.0), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojiresources (>= 1.1), com.ps.emojilibrary (>= 1.2.2~b5)
-Conflicts: org.thebigboss.emoji83plus, com.ps.emoji9fix, com.ps.emoji10fix
-Filename: ./debs/emojiport/com.ps.emojiportfix_1.6.6_iphoneos-arm.deb
-Size: 11386
-MD5sum: 7a95cf9765cb2f2a51355bbcc9829520
-SHA1: b458c96fb33311d02d3dfcf967381d12129c4727
-SHA256: 0a8afe34ec3a0dbb7d5b7f29fccc551d97938b91053f66b9f08b105f7bdfbd48
-Section: Tweaks
-Description: Latest emojis for iOS 8.3-8.4
-Tag: compatible::ios8
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_8_3.html
-Name: EmojiPort (iOS 8.3-8.4)
-
 Package: com.ps.emojiportlegacy
 Version: 1.7.5
 Architecture: iphoneos-arm
@@ -4063,6 +4044,22 @@ SHA1: 82a2b1a9f9a99145680e7555b195b7908eac7b14
 SHA256: f2ffed6fb42dd83ec173d947ef27f39ce06d24bb5adb845e6189a5332fba0bad
 Section: Tweaks
 Description: Manage Cydia packages via swipe.
+Author: PoomSmart
+Name: SwipeForMore
+
+Package: org.thebigboss.swipeformore
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 160
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Filename: ./debs/cydia/org.thebigboss.swipeformore_1.2.0_iphoneos-arm.deb
+Size: 23852
+MD5sum: 4731247c08101e57b7abf7d5366b9072
+SHA1: c9a6350dd6ebcea3d97386b8cd135222a0dfa23c
+SHA256: dada72c2751e47c951d4c5de1fe421a14cb822d11ed32bf57a556f155b68e424
+Section: Tweaks
+Description: Manage packages in Cydia via swipe.
 Author: PoomSmart
 Name: SwipeForMore
 
