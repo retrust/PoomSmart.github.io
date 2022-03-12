@@ -46,7 +46,7 @@ tweaks = [
             [ "1.3.0", "Updated to iOS 15.4 RC assets" ],
             [ "1.2.6", "Updated to iOS 15.0 assets" ]
         ],
-        "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata, translation) specific to iOS 10 and above.</p>"
+        "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata) specific to iOS 10 and above.</p>"
     },
     {
         "file": "emojifontmanager",

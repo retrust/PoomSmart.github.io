@@ -1592,6 +1592,23 @@ Tag: compatible::ios7, compatible::ios8, compatible::ios9
 Author: PoomSmart
 Name: EmojiResources
 
+Package: com.ps.emojiresources
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 532
+Depends: firmware (>= 7.0), firmware (<< 9.1), mobilesubstrate
+Filename: ./debs/emojiport/com.ps.emojiresources_1.2.2_iphoneos-arm.deb
+Size: 43714
+MD5sum: fc4b0ce286ccb211ad33932aec7be836
+SHA1: de133e65b749478e6778f3fed3056a8c5c7f161c
+SHA256: db96c99090efd494cae45d6d358131688d4d65e097e4bcb34642283b051e0e03
+Section: Tweaks
+Description: Latest emoji category icons.
+Tag: compatible::ios7, compatible::ios8, compatible::ios9
+Author: PoomSmart
+Name: EmojiResources
+
 Package: com.ps.emojisearchforipad
 Version: 1.0.0
 Architecture: iphoneos-arm
