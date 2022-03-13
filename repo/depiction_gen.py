@@ -73,6 +73,13 @@ tweaks = [
         "description": "<p>iOS 15.4 emoji font for EmojiFontManager.</p>"
     },
     {
+        "file": "twemojiefm",
+        "title": "Twemoji iOS 15.4 (EFM)",
+        "min_ios": "6.0",
+        "description": "<p>iOS 15.4 Twitter emoji font for EmojiFontManager.</p><br/>\
+            <p>Known issue: Silhouette and some interracial emojis are not themed because of how Apple splits up emoji images of them.</p>"
+    },
+    {
         "file": "emojilayout",
         "title": "EmojiLayout",
         "min_ios": "5.1",
