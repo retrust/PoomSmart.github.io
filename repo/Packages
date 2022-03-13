@@ -3958,32 +3958,16 @@ Author: PoomSmart
 Name: SmoothCursor
 
 Package: org.thebigboss.swipeformore
-Version: 1.1.10
+Version: 1.2.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 172
+Installed-Size: 176
 Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
-Filename: ./debs/cydia/org.thebigboss.swipeformore_1.1.10_iphoneos-arm.deb
-Size: 24038
-MD5sum: 2f90620ca23c8867456540c856b1a961
-SHA1: 82a2b1a9f9a99145680e7555b195b7908eac7b14
-SHA256: f2ffed6fb42dd83ec173d947ef27f39ce06d24bb5adb845e6189a5332fba0bad
-Section: Tweaks
-Description: Manage Cydia packages via swipe.
-Author: PoomSmart
-Name: SwipeForMore
-
-Package: org.thebigboss.swipeformore
-Version: 1.2.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 160
-Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
-Filename: ./debs/cydia/org.thebigboss.swipeformore_1.2.0_iphoneos-arm.deb
-Size: 23852
-MD5sum: 4731247c08101e57b7abf7d5366b9072
-SHA1: c9a6350dd6ebcea3d97386b8cd135222a0dfa23c
-SHA256: dada72c2751e47c951d4c5de1fe421a14cb822d11ed32bf57a556f155b68e424
+Filename: ./debs/cydia/org.thebigboss.swipeformore_1.2.1_iphoneos-arm.deb
+Size: 28256
+MD5sum: 64449854f218fce66208c6b6fdd6e5f4
+SHA1: 19ea5201de2106d2e4e8fbca6e50c5280f98a800
+SHA256: 9e00e81f2056b84cba739c0c6a658a381f0dbb79bff0f82d629d8ef2982e5cad
 Section: Tweaks
 Description: Manage packages in Cydia via swipe.
 Author: PoomSmart
