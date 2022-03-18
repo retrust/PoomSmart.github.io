@@ -475,9 +475,9 @@ tweaks = [
         "title": "IGClassicLayout",
         "min_ios": "13.0",
         "tintColor": "orange",
-        "has_source_code": True,
-        "description": "<p>Restore the original buttons layout in Instagram; Home-Search-Compose-Likes-Profile at bottom and Messages at top.</p>",
+        "description": "<p>Restore the original-ish buttons layout in Instagram.</p>",
         "changes": [
+            [ "1.0.2", "Removed Shopping tab for recent Instagram versions" ],
             [ "1.0.1", "Remove top Reels section in Search page" ]
         ]
     },
