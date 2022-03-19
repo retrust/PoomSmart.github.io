@@ -1889,6 +1889,23 @@ Description: Flipswitch for MyWi, all three types
 Author: PoomSmart
 Name: MyWi Flipswitch
 
+Package: com.ps.notoemojiefm
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 76208
+Filename: ./debs/emojifont/com.ps.notoemojiefm_1.0.0_iphoneos-arm.deb
+Size: 68341986
+MD5sum: 1e46c3b49df9a17fc2ff86b0709f17b0
+SHA1: 4a44b8730c57244d8d875341d4b51257ac762a4e
+SHA256: 02de57c51dd1af7991c7f89dd82f98371766c54f142b0431bf5ce4f645c8bda3
+Section: Fonts (EFM)
+Description: iOS 15.4 Noto Color Emoji (EFM)
+Author: PoomSmart
+Depiction: http://poomsmart.github.io/repo/depictions/notoemojiefm.html
+Name: Noto Emoji iOS 15.4 (EFM)
+Sileodepiction: http://poomsmart.github.io/repo/sileodepictions/notoemojiefm.html
+
 Package: com.ps.nottodayhomescreensidebar
 Version: 1.0.0
 Architecture: iphoneos-arm
