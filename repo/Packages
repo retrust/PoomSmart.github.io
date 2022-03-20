@@ -1555,6 +1555,23 @@ Depiction: https://poomsmart.github.io/repo/depictions/expandlesscamcontrols.htm
 Name: ExpandlessCamControls
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/expandlesscamcontrols.json
 
+Package: com.ps.fbemojiefm
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 42880
+Filename: ./debs/emojifont/com.ps.fbemojiefm_1.0.0_iphoneos-arm.deb
+Size: 29192276
+MD5sum: 7eefaf00902b5792913fa91f89d61864
+SHA1: aea43725a9ad6f889b3fff488416b4493d2898ca
+SHA256: 898d3a1894cbb45841611ed916b9abcadb619ce061ac53524811ec376942362a
+Section: Fonts (EFM)
+Description: iOS 14.6 Facebook Emoji (EFM)
+Author: PoomSmart
+Depiction: http://poomsmart.github.io/repo/depictions/fbemojiefm.html
+Name: Facebook Emoji iOS 14.6 (EFM)
+Sileodepiction: http://poomsmart.github.io/repo/sileodepictions/fbemojiefm.html
+
 Package: com.ps.flexibleflipswitch
 Version: 0.0.2-5
 Architecture: iphoneos-arm

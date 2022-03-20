@@ -85,7 +85,15 @@ tweaks = [
         "min_ios": "6.0",
         "description": "<p>iOS 15.4 Google Noto Color emoji font for EmojiFontManager (Unicode 14.0).</p><br/>\
             <p>Known issue: Silhouette and some interracial emojis are not themed because of how Apple splits up emoji images of them.</p><br/>\
-            <p><a href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">Font LICENSE</a></p>"
+            <p>Refer to <a href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">here</a> for licensing.</p>"
+    },
+    {
+        "file": "fbemojiefm",
+        "title": "Facebook Emoji iOS 14.6 (EFM)",
+        "min_ios": "6.0",
+        "description": "<p>iOS 14.6 Facebook emoji font for EmojiFontManager (Unicode 13.1).</p><br/>\
+            <p>Known issue: Silhouette and some interracial emojis are not themed because of how Apple splits up emoji images of them.</p><br/>\
+            <p>Refer to <a href=\"https://github.com/iamcal/emoji-data\">here</a> for licensing.</p>"
     },
     {
         "file": "emojilayout",
