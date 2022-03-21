@@ -70,7 +70,7 @@ tweaks = [
         "file": "emojifontefm",
         "title": "Emoji iOS 15.4 (EFM)",
         "min_ios": "6.0",
-        "description": "<p>iOS 15.4 emoji font for EmojiFontManager.</p>"
+        "description": "<p>iOS 15.4 emoji font for EmojiFontManager (Unicode 14.0).</p>"
     },
     {
         "file": "twemojiefm",
