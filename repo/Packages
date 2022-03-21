@@ -815,40 +815,40 @@ Author: PoomSmart
 Name: EmojiDarkStyle
 
 Package: com.ps.emojifontefm
-Version: 1.0.4
+Version: 1.0.6
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 87728
+Installed-Size: 87732
 Depends: com.ps.emojifontmanager, firmware (<< 14.0)
-Filename: ./debs/emojifont/com.ps.emojifontefm_1.0.4_iphoneos-arm.deb
-Size: 87424716
-MD5sum: 40ed7d05536d754b9984c48d90136f7b
-SHA1: adcd2e452676e2de2db42ec965cceac24e3700a5
-SHA256: c41fb030c4df25760ee3675c7e18874698f29c3ee58f605e7f2f431e3f43d5af
+Filename: ./debs/emojifont/com.ps.emojifontefm_1.0.6_iphoneos-arm.deb
+Size: 87427188
+MD5sum: b4e2c16b2342cda702b7160e7a6e7f77
+SHA1: dbcf9bf0b575baf5f2c4dfa59fe21578765460d2
+SHA256: d4033643087da8a7c66fc84e57efacdacba43ff4f21fa9821741bedcc02d5fe1
 Section: Fonts (EFM)
-Description: iOS 15.4 Emoji font (EmojiFontManager)
+Description: iOS 15.4 Emoji font (EFM)
 Author: PoomSmart
-Depiction: http://poomsmart.github.io/repo/depictions/emojifontefm.html
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontefm.html
 Name: Emoji iOS 15.4 (EFM, iOS <14)
-Sileodepiction: http://poomsmart.github.io/repo/sileodepictions/emojifontefm.html
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontefm.html
 
 Package: com.ps.emojifontefm14
-Version: 1.0.2
+Version: 1.0.4
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 60216
 Depends: com.ps.emojifontmanager, firmware (>= 14.0)
-Filename: ./debs/emojifont/com.ps.emojifontefm14_1.0.2_iphoneos-arm.deb
-Size: 60871012
-MD5sum: 10bb03d17cf5e697067f7edc3ce319fe
-SHA1: 376366d41eb6188a9c502554223e71911c9b44ce
-SHA256: ffa832af07e64aab0d42f154c1c639761b2691c8e2562655d483f7b07cf35892
+Filename: ./debs/emojifont/com.ps.emojifontefm14_1.0.4_iphoneos-arm.deb
+Size: 60868550
+MD5sum: 044266d4b07251f33b2c47ddf06d8426
+SHA1: ad6fdab59c77f00d6f0e4b134d4f82464559ea84
+SHA256: 4d9178c36ac6408facfd0bcbe6db0784d56fba9f181ef8cd888f3aa9f31c7ea2
 Section: Fonts (EFM)
-Description: iOS 15.4 Emoji font (EmojiFontManager)
+Description: iOS 15.4 Emoji font (EFM)
 Author: PoomSmart
-Depiction: http://poomsmart.github.io/repo/depictions/emojifontefm.html
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontefm.html
 Name: Emoji iOS 15.4 (EFM)
-Sileodepiction: http://poomsmart.github.io/repo/sileodepictions/emojifontefm.html
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontefm.html
 
 Package: com.ps.emojifontmanager
 Version: 1.0.0
@@ -1556,21 +1556,21 @@ Name: ExpandlessCamControls
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/expandlesscamcontrols.json
 
 Package: com.ps.fbemojiefm
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 42880
-Filename: ./debs/emojifont/com.ps.fbemojiefm_1.0.0_iphoneos-arm.deb
-Size: 29192276
-MD5sum: 7eefaf00902b5792913fa91f89d61864
-SHA1: aea43725a9ad6f889b3fff488416b4493d2898ca
-SHA256: 898d3a1894cbb45841611ed916b9abcadb619ce061ac53524811ec376942362a
+Filename: ./debs/emojifont/com.ps.fbemojiefm_1.0.1_iphoneos-arm.deb
+Size: 29196190
+MD5sum: af16f32268bdb553d3144fc15d5b23b9
+SHA1: ea1a43898c99396e50d8eb3ce012673f1280171c
+SHA256: f8fd0cc19ecd425b2db7d9ae5ee9d0a1edb6fa9d8c18bc5d4ab423d92890b4e2
 Section: Fonts (EFM)
 Description: iOS 14.6 Facebook Emoji (EFM)
 Author: PoomSmart
-Depiction: http://poomsmart.github.io/repo/depictions/fbemojiefm.html
+Depiction: https://poomsmart.github.io/repo/depictions/fbemojiefm.html
 Name: Facebook Emoji iOS 14.6 (EFM)
-Sileodepiction: http://poomsmart.github.io/repo/sileodepictions/fbemojiefm.html
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/fbemojiefm.html
 
 Package: com.ps.flexibleflipswitch
 Version: 0.0.2-5
@@ -1907,21 +1907,21 @@ Author: PoomSmart
 Name: MyWi Flipswitch
 
 Package: com.ps.notoemojiefm
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 76208
-Filename: ./debs/emojifont/com.ps.notoemojiefm_1.0.0_iphoneos-arm.deb
-Size: 68341986
-MD5sum: 1e46c3b49df9a17fc2ff86b0709f17b0
-SHA1: 4a44b8730c57244d8d875341d4b51257ac762a4e
-SHA256: 02de57c51dd1af7991c7f89dd82f98371766c54f142b0431bf5ce4f645c8bda3
+Filename: ./debs/emojifont/com.ps.notoemojiefm_1.0.1_iphoneos-arm.deb
+Size: 68341446
+MD5sum: 4165ffc62d36174678737c1976f5c562
+SHA1: 42f1fbc86ffefc6b493a831d7a08db887b3724e4
+SHA256: 1391922879a5f067faaed11626c7fb35514d5e88e4a923b1c691b58dcd0e27f0
 Section: Fonts (EFM)
-Description: iOS 15.4 Noto Color Emoji (EFM)
+Description: iOS 15.4 Google Noto Color Emoji (EFM)
 Author: PoomSmart
-Depiction: http://poomsmart.github.io/repo/depictions/notoemojiefm.html
+Depiction: https://poomsmart.github.io/repo/depictions/notoemojiefm.html
 Name: Noto Emoji iOS 15.4 (EFM)
-Sileodepiction: http://poomsmart.github.io/repo/sileodepictions/notoemojiefm.html
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemojiefm.html
 
 Package: com.ps.nottodayhomescreensidebar
 Version: 1.0.0
@@ -2465,21 +2465,21 @@ Author: PoomSmart
 Name: TapVideoConfig
 
 Package: com.ps.twemojiefm
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 68840
-Filename: ./debs/emojifont/com.ps.twemojiefm_1.0.0_iphoneos-arm.deb
-Size: 62127638
-MD5sum: 915b153412785fd64396a9894ca2794a
-SHA1: d4dfa36185d0e567cd33f6777f66bd56f52091ab
-SHA256: 2d68fc0b2323de9a4304022db946c254d28d96882b03c292d043518cceff0663
+Filename: ./debs/emojifont/com.ps.twemojiefm_1.0.1_iphoneos-arm.deb
+Size: 62126298
+MD5sum: 2de8d9c17ab5ca3346361841f7bce383
+SHA1: 88dbe5a80394a5ca366a6bcccfd4db66f0c6e594
+SHA256: b9dcd609ec3c9aa562cfdc34335164e5fec444c474be165677ceb2aea33f15af
 Section: Fonts (EFM)
-Description: iOS 15.4 Twemoji (EmojiFontManager)
+Description: iOS 15.4 Twemoji (EFM)
 Author: PoomSmart
-Depiction: http://poomsmart.github.io/repo/depictions/twemojiefm.html
+Depiction: https://poomsmart.github.io/repo/depictions/twemojiefm.html
 Name: Twemoji iOS 15.4 (EFM)
-Sileodepiction: http://poomsmart.github.io/repo/sileodepictions/twemojiefm.html
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/twemojiefm.html
 
 Package: com.ps.uyoucompat
 Version: 1.0.2
